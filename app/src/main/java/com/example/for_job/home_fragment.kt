@@ -23,7 +23,7 @@ class home_fragment : Fragment() {
         super.onCreate(savedInstanceState)
 
     }
-
+// hello every  body
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
