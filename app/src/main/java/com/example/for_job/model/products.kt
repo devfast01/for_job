@@ -1,18 +1,8 @@
-package com.ahmetozaydin.ecommerceapp.model
+package com.example.for_job.model
 
-import android.annotation.SuppressLint
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
-
-@SuppressLint("ParcelCreator")
-@Parcelize
-data class BaseClass(
-    @SerializedName("products") val products: List<Product>? = null,
-    @SerializedName("total") val total: Int? = null,
-    @SerializedName("skip") val skip: Int? = null,
-    @SerializedName("limit") val limit: Int? = null
-) : Parcelable
 
 @Parcelize
 data class Product(
